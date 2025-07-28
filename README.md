@@ -1,4 +1,4 @@
-#RISC-V Based MYTH Workshop Report
+RISC-V Based MYTH Workshop Report
 
 Overview
 The RISC-V based MYTH (Microprocessor for You in Thirty Hours) workshop, organized by VSD and Redwood EDA, is a comprehensive five-day program designed to provide participants with a hands-on introduction to the RISC-V Instruction Set Architecture (ISA) and microprocessor design. This workshop, attended by Ahtesham Ahmed, an 8th-grade student, covers the journey from software to hardware, guiding participants through C programming, assembly, digital logic, and the design of a pipelined RISC-V CPU. The following report summarizes the key learnings, labs, and outcomes of the workshop, as documented in the GitHub repository RISCV_MYTH.
