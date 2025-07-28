@@ -1,10 +1,12 @@
-RISC-V Based MYTH Workshop Report
+**RISC-V Based MYTH Workshop Report**
 
-Overview
+**Overview**
 The RISC-V based MYTH (Microprocessor for You in Thirty Hours) workshop, organized by VSD and Redwood EDA, is a comprehensive five-day program designed to provide participants with a hands-on introduction to the RISC-V Instruction Set Architecture (ISA) and microprocessor design. This workshop, attended by Ahtesham Ahmed, an 8th-grade student, covers the journey from software to hardware, guiding participants through C programming, assembly, digital logic, and the design of a pipelined RISC-V CPU. The following report summarizes the key learnings, labs, and outcomes of the workshop, as documented in the GitHub repository RISCV_MYTH.
 Workshop Structure
 The workshop is divided into five days, each focusing on a specific aspect of RISC-V architecture and microprocessor design. Participants progress from foundational concepts to advanced topics, with practical labs reinforcing theoretical knowledge. Below is a detailed breakdown of each day’s content and activities.
-Day 1: Introduction to RISC-V ISA and GNU Compiler Toolchain
+
+
+**Day 1: Introduction to RISC-V ISA and GNU Compiler Toolchain**
 Focus: Understanding the RISC-V ISA, binary number systems, and the GNU compiler toolchain.
 
 Key Concepts:
@@ -22,7 +24,7 @@ Simulated the same program using the RISC-V GCC toolchain (riscv64-unknown-elf-g
 
 
 
-Day 2: Introduction to ABI and Basic Verification Flow
+**Day 2: Introduction to ABI and Basic Verification Flow**
 Focus: Exploring the Application Binary Interface (ABI) and basic verification processes.
 
 Key Concepts:
@@ -38,7 +40,7 @@ Compiled both files using riscv64-unknown-elf-gcc -Ofast -mabi=lp64 -march=rv64i
 
 
 
-Day 3: Digital Logic with TL-Verilog and Makerchip
+**Day 3: Digital Logic with TL-Verilog and Makerchip**
 Focus: Introduction to digital logic, combinational and sequential circuits, and TL-Verilog on the Makerchip platform.
 
 Key Concepts:
@@ -61,7 +63,7 @@ Calculator with Validity and Memory: Enhanced the calculator with validity check
 
 
 
-Day 4: Basic RISC-V CPU Microarchitecture
+**Day 4: Basic RISC-V CPU Microarchitecture**
 Focus: Building the foundational components of a RISC-V CPU microarchitecture.
 
 Key Concepts:
@@ -80,7 +82,7 @@ Half-Completed RISC-V CPU: Built a partial CPU to perform addition (1 to 9), inc
 
 
 
-Day 5: Complete Pipelined RISC-V CPU Microarchitecture
+**Day 5: Complete Pipelined RISC-V CPU Microarchitecture**
 Focus: Completing a pipelined RISC-V CPU with full functionality.
 
 Key Concepts:
@@ -98,23 +100,24 @@ Verified the CPU by checking if register x10 contains the sum (1+2+3+4+5+6+7+8+9
 
 
 
-Tools and Platforms
+**Tools and Platforms**
 
 Linux Terminal: Used for compiling and running C and assembly programs.
 Spike Simulator: Simulated RISC-V programs to verify functionality.
 Makerchip IDE: Provided a platform for writing, compiling, and visualizing TL-Verilog code.
 RISC-V GCC Toolchain: Compiled C and assembly code for the RISC-V architecture.
 
-Outcomes
+**Outcomes**
 The workshop equipped participants with a deep understanding of RISC-V architecture and microprocessor design. Key outcomes include:
 
 Proficiency in writing and simulating C and assembly programs for RISC-V.
 Practical experience in designing combinational and sequential circuits using TL-Verilog.
 Successful implementation of a pipelined RISC-V CPU capable of executing arithmetic, logical, branch, jump, and memory operations.
 Enhanced problem-solving skills through hands-on labs and debugging.
-A publicly accessible GitHub repository (RISCV_MYTH) documenting the workshop’s labs and resources.
 
-Acknowledgements
+
+**Acknowledgements**
 Special thanks to Kunal Ghosh for guiding the first two days and Steve Hoover for teaching the final three days. Gratitude is extended to VSD and Redwood EDA for organizing this educational workshop, making complex concepts accessible to young learners like Ahtesham Ahmed.
-Conclusion
+
+**Conclusion**
 The RISC-V based MYTH workshop is an excellent platform for learning microprocessor design, from foundational concepts to advanced CPU implementation. Through structured lessons and hands-on labs, participants gain practical skills in RISC-V programming, digital logic, and microarchitecture design. This workshop is highly recommended for students and enthusiasts interested in computer architecture and hardware design.
